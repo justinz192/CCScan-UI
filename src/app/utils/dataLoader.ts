@@ -78,7 +78,7 @@ const participantDataMap: Record<string, CombinedParticipantData> = {
   '11-59.VEL': participantData_11_59_VEL as CombinedParticipantData,
   '09-54.OST': participantData_09_54_OST as CombinedParticipantData,
   '07-53.SMI': participantData_07_53_SMI as CombinedParticipantData,
-  '08-29.BAD': participantData_08_29_BAD as CombinedParticipantData,
+   //'08-29.BAD': participantData_08_29_BAD as CombinedParticipantData,
 };
 
 // Parse heart rate range string (e.g., "87-105") to get average and peak
