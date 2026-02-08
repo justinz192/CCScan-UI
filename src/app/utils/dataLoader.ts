@@ -3,6 +3,7 @@
 // and add a file named {CCCARE_ID with . replaced by _}.json
 // Then import it here and add to participantDataMap below
 import participantData_11_59_VEL from '../../data/11-59_VEL/11-59_VEL.json';
+import participantData_09_54_OST from '../../data/09-54_OST/09-54_OST.json';
 
 interface CardioSession {
   date: string;
@@ -73,6 +74,7 @@ interface CombinedParticipantData {
 // Map of CCCARE IDs to their imported data
 const participantDataMap: Record<string, CombinedParticipantData> = {
   '11-59.VEL': participantData_11_59_VEL as CombinedParticipantData,
+  '09-54_OST': participantData_09_54_OST as CombinedParticipantData,
 };
 
 // Parse heart rate range string (e.g., "87-105") to get average and peak
