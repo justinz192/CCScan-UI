@@ -5,6 +5,7 @@
 import participantData_11_59_VEL from '../../data/11-59_VEL/11-59_VEL.json';
 import participantData_09_54_OST from '../../data/09-54_OST/09-54_OST.json';
 import participantData_07_53_SMI from '../../data/07-53_SMI/07-53_SMI.json';
+import participantData_08_29_BAD from '../../data/08-29_BAD/08-29_BAD.json';
 
 interface CardioSession {
   date: string;
@@ -77,6 +78,7 @@ const participantDataMap: Record<string, CombinedParticipantData> = {
   '11-59.VEL': participantData_11_59_VEL as CombinedParticipantData,
   '09-54.OST': participantData_09_54_OST as CombinedParticipantData,
   '07-53.SMI': participantData_07_53_SMI as CombinedParticipantData,
+  '08-29.BAD': participantData_08_29_BAD as CombinedParticipantData,
 };
 
 // Parse heart rate range string (e.g., "87-105") to get average and peak

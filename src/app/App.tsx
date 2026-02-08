@@ -16,6 +16,7 @@ const participants = [
   { id: '11-59.VEL', name: 'Thomas Velly', lastSession: 'Jan 28, 2026' },
   { id: '09-54.OST', name: 'Walker Ostrom', lastSession: 'Jan 15, 2026'},
   { id: '07-53.SMI', name: 'John Smith', lastSession: 'Jan 20, 2026'},
+  { id: '08-29.BAD', name: 'Alex Badder', lastSession: 'Jan 25, 2026'},
   // Additional participants can be added here once their data files are created
   // Format: { id: 'MM-YY.XXX', name: 'First Last', lastSession: 'Date' },
 ];
