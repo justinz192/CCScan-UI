@@ -4,6 +4,7 @@
 // Then import it here and add to participantDataMap below
 import participantData_11_59_VEL from '../../data/11-59_VEL/11-59_VEL.json';
 import participantData_09_54_OST from '../../data/09-54_OST/09-54_OST.json';
+import participantData_07_53_SMI from '../../data/07-53_SMI/07-53_SMI.json';
 
 interface CardioSession {
   date: string;
@@ -57,7 +58,7 @@ interface StrengthJSON {
 interface CombinedParticipantData {
   cccare_id: string;
   confidence: string;
-  notes: string;
+  notes: string | null;
   strength_data: {
     cccare_id: string;
     year: number;
@@ -75,6 +76,7 @@ interface CombinedParticipantData {
 const participantDataMap: Record<string, CombinedParticipantData> = {
   '11-59.VEL': participantData_11_59_VEL as CombinedParticipantData,
   '09-54.OST': participantData_09_54_OST as CombinedParticipantData,
+  '07-53.SMI': participantData_07_53_SMI as CombinedParticipantData,
 };
 
 // Parse heart rate range string (e.g., "87-105") to get average and peak

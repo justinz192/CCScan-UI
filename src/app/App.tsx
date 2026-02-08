@@ -14,7 +14,8 @@ import { loadParticipantData } from './utils/dataLoader';
 // Participant list - CCCARE ID format: MM-YY.XXX (birth month-year.last 3 letters of last name)
 const participants = [
   { id: '11-59.VEL', name: 'Thomas Velly', lastSession: 'Jan 28, 2026' },
-  { id: '09-54.OST', name: 'Walker Ostrom', lastSession: 'Jan 15, 2026'}
+  { id: '09-54.OST', name: 'Walker Ostrom', lastSession: 'Jan 15, 2026'},
+  { id: '07-53.SMI', name: 'John Smith', lastSession: 'Jan 20, 2026'},
   // Additional participants can be added here once their data files are created
   // Format: { id: 'MM-YY.XXX', name: 'First Last', lastSession: 'Date' },
 ];
