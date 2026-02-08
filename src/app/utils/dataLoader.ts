@@ -74,7 +74,7 @@ interface CombinedParticipantData {
 // Map of CCCARE IDs to their imported data
 const participantDataMap: Record<string, CombinedParticipantData> = {
   '11-59.VEL': participantData_11_59_VEL as CombinedParticipantData,
-  '09-54_OST': participantData_09_54_OST as CombinedParticipantData,
+  '09-54.OST': participantData_09_54_OST as CombinedParticipantData,
 };
 
 // Parse heart rate range string (e.g., "87-105") to get average and peak
