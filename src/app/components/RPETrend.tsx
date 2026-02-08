@@ -18,7 +18,7 @@ export function RPETrend({ data }: RPETrendProps) {
     <div className="bg-white rounded-lg border-2 border-gray-300 p-6">
       <div className="flex items-center gap-3 mb-6 pb-4 border-b-2 border-gray-200">
         <Activity className="w-8 h-8 text-gray-700" />
-        <h2 className="text-2xl font-medium text-gray-900">RPE & Perceived Effort Trend</h2>
+        <h2 className="text-2xl font-medium text-gray-900">Rate of Perceived Effort (RPE)</h2>
       </div>
       
       <div className="h-[300px]">

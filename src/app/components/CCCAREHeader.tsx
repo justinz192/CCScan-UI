@@ -37,7 +37,7 @@ export function CCCAREHeader({ cccareId, scanDate, programType, onOpenMenu, onRe
           <div className="flex items-center gap-8">
             <div className="text-right">
               <p className="text-sm text-gray-600 uppercase tracking-wide mb-1">Pre-Assessment</p>
-              <p className="text-3xl font-medium text-gray-900">Done</p>
+              <p className="text-3xl font-medium text-gray-900">Complete</p>
             </div>
             <div className="w-px h-16 bg-gray-300"></div>
             <div className="text-right">
